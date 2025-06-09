@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --cor-principal: #a76da0;    
+    --cor-secundaria: #5e3c58;    
+    --cor-destaque: #ff69b4;      
+    --cor-fundo: #fffafc;
+    --cor-hover: #d44196;
+}
+
+header img.rounded-circle {
+    margin-top: 30px; /* ou o valor que preferir */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover {
+    color: var(--cor-hover);
+}
+
+.badge {
+    background-color: var(--cor-principal) !important;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    font-size: 0.9em;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(160, 100, 150, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #fce4ec;
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
